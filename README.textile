@@ -1,10 +1,11 @@
-== Maptimize - Demo 1
+h1. Maptimize - Demo 1
 
 This demonstration illustrate a simple integration of "Maptimize":http://maptimize.com in your application.
 
-== Disclaimer
+h2. Disclaimer
 
-Neither this demo neither I are affiliated with Maptimize.
+Neither this demo neither I are affiliated with "Maptimize":http://maptimize.com.
 
 Released under "MIT License":http://www.opensource.org/licenses/mit-license.php
+
 Copyright (c) 2009 Sébastien Grosjean - ZenCocoon
