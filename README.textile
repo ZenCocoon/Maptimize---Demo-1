@@ -6,6 +6,4 @@ h2. Disclaimer
 
 Neither this demo neither I are affiliated with "Maptimize":http://maptimize.com.
 
-Released under "MIT License":http://www.opensource.org/licenses/mit-license.php
-
-Copyright (c) 2009 Sébastien Grosjean - ZenCocoon
+Released under "MIT License":http://www.opensource.org/licenses/mit-license.php - Copyright (c) 2009 Sébastien Grosjean - ZenCocoon

@@ -1,0 +1,75 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-30 12:07:28) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-30 12:07:29) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBusinesses (20090430091320)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "businesses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "street" varchar(255), "city" varchar(255), "zipcode" varchar(255), "state" varchar(255), "country" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090430091320')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("businesses")[0m
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-04-30 12:19:16) [GET]
+  [4;36;1mBusiness Load (0.4ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 173ms (View: 169, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-04-30 12:19:20) [GET]
+  [4;35;1mBusiness Load (0.4ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-04-30 12:20:21) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-04-30 12:45:29) [GET]
+  [4;35;1mBusiness Load (0.5ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-04-30 12:45:36) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/businesses/new]
