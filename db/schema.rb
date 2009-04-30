@@ -9,17 +9,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090430091320) do
+ActiveRecord::Schema.define(:version => 20090430101417) do
 
   create_table "businesses", :force => true do |t|
     t.string   "name"
-    t.string   "street"
-    t.string   "city"
-    t.string   "zipcode"
-    t.string   "state"
-    t.string   "country"
+    t.string   "address"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.float    "lat"
+    t.float    "lng"
+    t.string   "geolocalized_address"
   end
 
 end

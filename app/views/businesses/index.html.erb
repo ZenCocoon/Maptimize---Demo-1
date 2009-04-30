@@ -3,21 +3,13 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Street</th>
-    <th>City</th>
-    <th>Zipcode</th>
-    <th>State</th>
-    <th>Country</th>
+    <th>Address</th>
   </tr>
 
 <% @businesses.each do |business| %>
   <tr>
     <td><%=h business.name %></td>
-    <td><%=h business.street %></td>
-    <td><%=h business.city %></td>
-    <td><%=h business.zipcode %></td>
-    <td><%=h business.state %></td>
-    <td><%=h business.country %></td>
+    <td><%=h business.address %></td>
     <td><%= link_to 'Show', business %></td>
     <td><%= link_to 'Edit', edit_business_path(business) %></td>
     <td><%= link_to 'Destroy', business, :confirm => 'Are you sure?', :method => :delete %></td>

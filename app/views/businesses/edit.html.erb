@@ -8,29 +8,18 @@
     <%= f.text_field :name %>
   </p>
   <p>
-    <%= f.label :street %><br />
-    <%= f.text_field :street %>
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
   </p>
-  <p>
-    <%= f.label :city %><br />
-    <%= f.text_field :city %>
-  </p>
-  <p>
-    <%= f.label :zipcode %><br />
-    <%= f.text_field :zipcode %>
-  </p>
-  <p>
-    <%= f.label :state %><br />
-    <%= f.text_field :state %>
-  </p>
-  <p>
-    <%= f.label :country %><br />
-    <%= f.text_field :country %>
-  </p>
+  <div id='suggests' class='auto_complete' style='display:none'></div>
+  <div id="map" style="position: absolute; top: 10px; left: 400px; height: 350px; width: 350px;"></div>
+  <%= f.hidden_field :lat %>
+  <%= f.hidden_field :lng %>
   <p>
     <%= f.submit 'Update' %>
   </p>
 <% end %>
+
 
 <%= link_to 'Show', @business %> |
 <%= link_to 'Back', businesses_path %>

@@ -3,19 +3,7 @@
 one:
   name: MyString
   street: MyString
-  city: MyString
-  zipcode: MyString
-  state: MyString
-  country: MyString
-  lat: 1.5
-  lng: 1.5
 
 two:
   name: MyString
-  street: MyString
-  city: MyString
-  zipcode: MyString
-  state: MyString
-  country: MyString
-  lat: 1.5
-  lng: 1.5
+  address: MyString
