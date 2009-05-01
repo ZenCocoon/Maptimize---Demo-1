@@ -10,7 +10,7 @@ This demonstration will help you :
 # map your localized object while keeping optimized, using "Maptimize":http://www.maptimize.com
 # show details when clicking on markers and clusters
 
-Looking for more details, read the full tutorial "Maps, Geolocalization and Optimization with Maptimize":http://seb.box.re/2009/05/02/maps-geolocalization-and-optimization-with-maptimize
+Looking for more details, read the full tutorial "Maps, Geolocalization and Optimization with Maptimize":http://seb.box.re/2009/05/01/maps-geolocalization-and-optimization-with-maptimize
 
 h2. Configuration required before starting server
 
