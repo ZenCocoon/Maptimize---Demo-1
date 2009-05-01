@@ -1,8 +1,26 @@
 h1. Maptimize - Demo 1
 
-This demonstration illustrate a simple integration of "Maptimize":http://maptimize.com in your application.
+Playing with maps is great fun and here is walk through from basics to advanced use of geolocalization and how to optimize your maps with "Maptimize":http://www.maptimize.com
+
+This demonstration will help you :
+
+# start geo localizing your addresses with server side technologies and caching system
+# add front side tools (in Javascript) to keep things lighter and nicer for the end user
+# keep both side geo localization working nicely together and in an unobtrusive way
+# map your localized object while keeping optimized, using "Maptimize":http://www.maptimize.com
+# show details when clicking on markers and clusters
+
+Looking for more details, read the full tutorial "Maps, Geolocalization and Optimization with Maptimize":http://seb.box.re/2009/05/02/maps-geolocalization-and-optimization-with-maptimize
 
 h2. Configuration required before starting server
+
+Run the database migration
+
+<pre>
+<code>
+rake db:migrate
+</code>
+</pre>
 
 Before you can get this demo working, you'll need to update few API KEYS
 
@@ -17,6 +35,6 @@ You'll find an example of BASH command line in "config/initializers/maptimize_co
 
 h2. Disclaimer
 
-Neither this demo neither I are affiliated with "Maptimize":http://maptimize.com.
+I'm not affiliated with "Maptimize":http://maptimize.com so this thoughts, code, comments, ... doesn't engage "Maptimize":http://maptimize.com in any way.
 
 Released under "MIT License":http://www.opensource.org/licenses/mit-license.php - Copyright (c) 2009 Sébastien Grosjean - ZenCocoon
