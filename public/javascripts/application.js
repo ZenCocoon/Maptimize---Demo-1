@@ -1,6 +1,7 @@
 Application = Class.create({
   initialize: function() {
-    this.initAddressChooser('business', {street: 'address'});
+    this.initAddressChooser('business', {street: 'address'})
+      .initMap('map');
   },
   initAddressChooser: function(object, options) {
     // Init options
@@ -20,7 +21,7 @@ Application = Class.create({
       current_lng.insert({after: '<input type="hidden" id="'+object+'_'+options.get('lat')+'" name="'+object+'['+options.get('lat')+']" value="'+current_lat.value+'" /><input type="hidden" id="'+object+'_'+options.get('lng')+'" name="'+object+'['+options.get('lng')+']" value="'+current_lng.value+'" />'});
     
     var street, submit;
-    if (!(street = $(object+'_'+options.get('street'))) || !(submit = $(object+'_'+options.get('submit')))) return;
+    if (!(street = $(object+'_'+options.get('street'))) || !(submit = $(object+'_'+options.get('submit')))) return(this);
     
     // BEGIN AUTOCOMPLETE SETTINGS AND HACKS :)
     // Create a local autocomplete without data. Data will be added dynamically according to map suggestions
@@ -87,6 +88,24 @@ Application = Class.create({
       }
     );
 
+    return(this);
+  },
+  initMap: function(map) {
+    if (!GBrowserIsCompatible() || !(map = $(map)))
+      return(this);
+
+    // Create a new google map
+    var map = new GMap2(map);
+
+    // Center on the world
+    map.setCenter(new GLatLng(47, 1), 2);
+
+    // Add controls
+    map.addControl(new GSmallMapControl());
+
+     // Attach maptimize service
+    window.maptimizeMap = new Maptimize.Map(map);
+    
     return(this);
   }
 });

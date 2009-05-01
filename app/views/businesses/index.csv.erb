@@ -1,0 +1,4 @@
+id,lat,lng
+<%- @businesses.each do |business| -%>
+<%= business.id.to_s + ',' + business.lat.to_s + ',' + business.lng.to_s %>
+<%- end -%>

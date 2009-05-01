@@ -2,6 +2,19 @@ h1. Maptimize - Demo 1
 
 This demonstration illustrate a simple integration of "Maptimize":http://maptimize.com in your application.
 
+h2. Configuration required before starting server
+
+Before you can get this demo working, you'll need to update few API KEYS
+
+# config/initializers/geokit_config.rb
+# config/initializers/maptimize_config.rb
+
+h2. To work nicely
+
+Once you've created few entry, you will like to send your data to "Maptimize":http://www.maptimize.com to get your map  showing your markers.
+
+You'll find an example of BASH command line in "config/initializers/maptimize_config.rb"
+
 h2. Disclaimer
 
 Neither this demo neither I are affiliated with "Maptimize":http://maptimize.com.

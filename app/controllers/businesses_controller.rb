@@ -1,12 +1,14 @@
 class BusinessesController < ApplicationController
   # GET /businesses
   # GET /businesses.xml
+  # GET /businesses.csv
   def index
     @businesses = Business.all
 
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @businesses }
+      format.csv
     end
   end
 

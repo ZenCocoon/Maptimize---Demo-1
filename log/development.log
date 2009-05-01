@@ -3851,3 +3851,748 @@ Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:47:21) [GET
 Rendering template within layouts/businesses
 Rendering businesses/show
 Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/16]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 20:05:30) [GET]
+  [4;36;1mBusiness Load (1.2ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 20:38:53) [GET]
+  [4;35;1mBusiness Load (1.1ms)[0m   [0mSELECT * FROM "businesses" [0m
+
+ActionView::MissingTemplate (Missing template businesses/index.erb in view path app/views):
+  app/controllers/businesses_controller.rb:8:in `index'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 20:39:02) [GET]
+  [4;36;1mBusiness Load (1.1ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 20:40:53) [GET]
+  [4;35;1mBusiness Load (4.2ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 18ms (View: 7, DB: 4) | 200 OK [http://localhost/businesses.csv]
+/!\ FAILSAFE /!\  Fri May 01 20:53:54 +0300 2009
+  Status: 500 Internal Server Error
+  private method `split' called for #<Mime::Type:0x2631ad0>
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb:206:in `method_missing'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:51:in `media_type'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:117:in `parseable_data?'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:138:in `POST'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:428:in `request_parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:381:in `parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1279:in `assign_shortcuts'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:518:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:91:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 20:55:35) [GET]
+  [4;36;1mBusiness Load (0.9ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 20:55:46) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"1"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 1) [0m
+  [4;36;1mBusiness Destroy (0.4ms)[0m   [0;1mDELETE FROM "businesses" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/businesses
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/businesses/1]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 20:55:46) [GET]
+  [4;35;1mBusiness Load (1.0ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 20:56:03) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"11"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 11) [0m
+  [4;35;1mBusiness Destroy (0.6ms)[0m   [0mDELETE FROM "businesses" WHERE "id" = 11[0m
+Redirected to http://localhost:3000/businesses
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/11]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 20:56:03) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 20:56:09) [GET]
+  [4;35;1mBusiness Load (1.3ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://localhost/businesses.csv]
+/!\ FAILSAFE /!\  Fri May 01 20:56:15 +0300 2009
+  Status: 500 Internal Server Error
+  private method `split' called for #<Mime::Type:0x2631ad0>
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb:206:in `method_missing'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:51:in `media_type'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:117:in `parseable_data?'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:138:in `POST'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:428:in `request_parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:381:in `parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1279:in `assign_shortcuts'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:518:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:91:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 20:58:34) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 25ms (View: 15, DB: 1) | 200 OK [http://localhost/businesses.csv]
+/!\ FAILSAFE /!\  Fri May 01 21:00:47 +0300 2009
+  Status: 500 Internal Server Error
+  private method `split' called for #<Mime::Type:0x22a3cd8>
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb:206:in `method_missing'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:51:in `media_type'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:117:in `parseable_data?'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:138:in `POST'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:428:in `request_parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:381:in `parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1279:in `assign_shortcuts'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:518:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:91:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Fri May 01 21:00:58 +0300 2009
+  Status: 500 Internal Server Error
+  private method `split' called for #<Mime::Type:0x22a3cd8>
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb:206:in `method_missing'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:51:in `media_type'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:117:in `parseable_data?'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:138:in `POST'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:428:in `request_parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:381:in `parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1279:in `assign_shortcuts'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:518:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:91:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Fri May 01 21:01:36 +0300 2009
+  Status: 500 Internal Server Error
+  private method `split' called for #<Mime::Type:0x22a3cd8>
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb:206:in `method_missing'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:51:in `media_type'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:117:in `parseable_data?'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:138:in `POST'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:428:in `request_parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:381:in `parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1279:in `assign_shortcuts'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:518:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:91:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Fri May 01 21:01:51 +0300 2009
+  Status: 500 Internal Server Error
+  private method `split' called for #<Mime::Type:0x22a3cd8>
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb:206:in `method_missing'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:51:in `media_type'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:117:in `parseable_data?'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:138:in `POST'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:428:in `request_parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/request.rb:381:in `parameters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1279:in `assign_shortcuts'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:518:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:65:in `call_with_exception'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:91:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 21:04:32) [GET]
+  [4;36;1mBusiness Load (1.0ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-01 21:05:42) [PUT]
+
+ActionController::MethodNotAllowed (Only get and post requests are allowed.):
+  
+
+Rendered rescues/_trace (23.1ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-01 21:07:37) [PUT]
+
+ActionController::MethodNotAllowed (Only get and post requests are allowed.):
+  
+
+Rendered rescues/_trace (21.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-01 21:08:03) [PUT]
+
+ActionController::MethodNotAllowed (Only get and post requests are allowed.):
+  
+
+Rendered rescues/_trace (19.6ms)
+Rendered rescues/_request_and_response (3.2ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 21:16:18) [PUT]
+  [4;35;1mBusiness Load (0.9ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 168ms (View: 162, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:17:06) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:18:49) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:19:17) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:22:00) [PUT]
+  Parameters: {"id"=>"10", "test"=>nil}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:22:28) [PUT]
+  Parameters: {"http://localhost:3000/businesses.csv"=>nil, "id"=>"10"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-01 21:23:24) [PUT]
+
+ActionController::MethodNotAllowed (Only get and post requests are allowed.):
+  
+
+Rendered rescues/_trace (50.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:23:25) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:24:21) [PUT]
+  Parameters: {"id"=>"10", "test"=>nil}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (41.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 21:24:42) [GET]
+  [4;36;1mBusiness Load (0.9ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 21:25:15) [GET]
+  [4;35;1mBusiness Load (0.8ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 21:25:29) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:25:29) [PUT]
+  Parameters: {"id,lat,lng"=>nil, "id"=>"10"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 21:25:43) [GET]
+  [4;35;1mBusiness Load (0.9ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 20ms (View: 14, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:25:43) [PUT]
+  Parameters: {"id,lat,lng"=>nil, "id"=>"10"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (98.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 21:26:30) [GET]
+  [4;36;1mBusiness Load (1.3ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 18ms (View: 4, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:26:30) [PUT]
+  Parameters: {"id,lat,lng"=>nil, "id"=>"10"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 21:28:07) [GET]
+  [4;35;1mBusiness Load (0.8ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:31:35) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:32:10) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:32:20) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 22ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:32:29) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:49:07) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:49:34) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.5ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 24ms (DB: 1) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:49:48) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:49:57) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:50:21) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 21:50:39) [PUT]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 22:06:54) [GET]
+  [4;36;1mBusiness Load (1.3ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 23ms (View: 4, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 22:09:03) [GET]
+  [4;35;1mBusiness Load (0.8ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 22:12:53) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 22:22:09) [GET]
+  [4;36;1mBusiness Load (1.0ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index to csv (for 127.0.0.1 at 2009-05-01 22:23:40) [GET]
+  [4;35;1mBusiness Load (1.0ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering businesses/index
+Completed in 12ms (View: 3, DB: 1) | 200 OK [http://localhost/businesses.csv]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 22:34:44) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 22:35:03) [GET]
+  [4;35;1mBusiness Load (0.9ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 24ms (View: 16, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 22:40:39) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 20ms (View: 8, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 22:42:16) [GET]
+  [4;35;1mBusiness Load (0.8ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 22:44:11) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 22:47:23) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.4ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 39ms (View: 30, DB: 0) | 200 OK [http://localhost/businesses/10]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 22:53:07) [GET]
+  [4;36;1mBusiness Load (1.2ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/businesses]
