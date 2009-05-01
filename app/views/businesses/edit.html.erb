@@ -13,13 +13,12 @@
   </p>
   <div id='suggests' class='auto_complete' style='display:none'></div>
   <div id="map" style="position: absolute; top: 10px; left: 400px; height: 350px; width: 350px;"></div>
-  <%= f.hidden_field :lat %>
-  <%= f.hidden_field :lng %>
+  <%= f.hidden_field :current_lat, :value => @business.lat %>
+  <%= f.hidden_field :current_lng, :value => @business.lng %>
   <p>
     <%= f.submit 'Update' %>
   </p>
 <% end %>
-
 
 <%= link_to 'Show', @business %> |
 <%= link_to 'Back', businesses_path %>

@@ -1535,3 +1535,2319 @@ Processing BusinessesController#show (for 127.0.0.1 at 2009-04-30 23:05:57) [GET
 Rendering template within layouts/businesses
 Rendering businesses/show
 Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:12:50) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.4ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 94ms (View: 73, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:15:46) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:16:10) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:16:19) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (1.5ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 19ms (View: 7, DB: 1) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:17:09) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-116.71875", "lat"=>"36.73888412439431", "address"=>"Lincoln, Nevada, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+  [4;35;1mBusiness Update (0.6ms)[0m   [0mUPDATE "businesses" SET "lng" = -116.71875, "lat" = 36.7388841243943, "updated_at" = '2009-05-01 08:17:09' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 39ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:17:09) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:17:16) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:17:29) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-122.16796875", "lat"=>"35.496456056584165", "address"=>"Lincoln, Nevada, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "lng" = -122.16796875, "lat" = 35.4964560565842, "updated_at" = '2009-05-01 08:17:29' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 64ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:17:29) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:17:37) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:18:19) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:18:39) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:18:59) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:20:20) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-122.16796875", "lat"=>"35.4964560565842", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+  [4;36;1mBusiness Update (0.3ms)[0m   [0;1mUPDATE "businesses" SET "address" = 'Lincoln, Miami, FL 31083, USA', "updated_at" = '2009-05-01 08:20:20' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:20:20) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:20:44) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:20:46) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-122.16796875", "lat"=>"35.4964560565842", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;36;1mBusiness Update (0.4ms)[0m   [0;1mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Miami, FL 31083, USA', "lng" = -80.232774, "lat" = 25.764455, "updated_at" = '2009-05-01 08:20:47' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 1421ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:20:47) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:20:58) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:21:07) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:22:00) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-84.3310546875", "lat"=>"29.420460341013133", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+  [4;35;1mBusiness Update (0.3ms)[0m   [0mUPDATE "businesses" SET "lng" = -84.3310546875, "lat" = 29.4204603410131, "updated_at" = '2009-05-01 08:22:00' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:22:00) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:22:07) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:22:24) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-89.3226954", "lat"=>"40.061338", "address"=>"Lincoln, Illinois, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Google geocoding. Address: Lincoln, Illinois, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Illinois, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln, IL, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>IL</AdministrativeAreaName><Locality><LocalityName>Lincoln</LocalityName></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="40.1685730" south="40.1258320" east="-89.3300760" west="-89.4169920" />
+    </ExtendedData>
+    <Point><coordinates>-89.3678440,40.1469720,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Illinois, USA', "lng" = -89.367844, "lat" = 40.146972, "address" = 'Lincoln, Illinois, USA', "updated_at" = '2009-05-01 08:22:27' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 2364ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:22:27) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:26:26) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:26:37) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-105.4068079", "lat"=>"33.8853309", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, New Mexico, USA', "lng" = -105.4068079, "lat" = 33.8853309, "address" = 'Lincoln, New Mexico, USA', "updated_at" = '2009-05-01 08:26:37' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:26:37) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:30:36) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:31:23) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:31:52) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:32:41) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"", "lat"=>"", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Google geocoding. Address: Lincoln, New Mexico, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, New Mexico, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln, New Mexico, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>NM</AdministrativeAreaName><AddressLine>Lincoln</AddressLine></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="33.4944641" south="33.4881689" east="-105.3863570" west="-105.3927000" />
+    </ExtendedData>
+    <Point><coordinates>-105.3863570,33.4924140,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Update (0.5ms)[0m   [0mUPDATE "businesses" SET "lng" = -105.386357, "lat" = 33.492414, "updated_at" = '2009-05-01 08:32:42' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 935ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:32:42) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:33:17) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:35:16) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 69ms (View: 63, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:35:44) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:35:46) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:35:51) [PUT]
+  Parameters: {"business"=>{"name"=>"", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:35:51) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:35:59) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:36:00) [PUT]
+  Parameters: {"business"=>{"name"=>"", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:36:00) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:36:08) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:43:42) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:44:22) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:45:28) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:46:16) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/4/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:46:53) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-105.41793823242188", "lat"=>"33.496170356043066", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+  [4;36;1mBusiness Update (0.3ms)[0m   [0;1mUPDATE "businesses" SET "lng" = -105.417938232422, "lat" = 33.4961703560431, "updated_at" = '2009-05-01 08:46:53' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses/4
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:46:53) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/4]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 11:47:32) [GET]
+  [4;36;1mBusiness Load (0.6ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 37ms (View: 31, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 11:47:34) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 39ms (View: 34, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 11:48:01) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"110.983333", "lat"=>"37.95", "address"=>"Lin, 临县, Lüliang, Shanxi, China"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lin, 临县, Lüliang, Shanxi, China. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lin, 临县, Lüliang, Shanxi, China</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lin, 临县, Lüliang, Shanxi, China</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>CN</CountryNameCode><CountryName>China</CountryName><AdministrativeArea><AdministrativeAreaName>Shanxi</AdministrativeAreaName><DependentLocality><DependentLocalityName>临县</DependentLocalityName><AddressLine>Lin</AddressLine></DependentLocality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="37.9531476" south="37.9468524" east="110.9864806" west="110.9801854" />
+    </ExtendedData>
+    <Point><coordinates>110.9833330,37.9500000,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Create (0.4ms)[0m   [0mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 08:48:02', 110.983333, 'Lin, 临县, Lüliang, Shanxi, China', 37.95, 'Lin, 临县, Lüliang, Shanxi, China', '2009-05-01 08:48:02')[0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 649ms (DB: 0) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:48:02) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:48:29) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:48:46) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-115.6596529", "lat"=>"48.5880903", "address"=>"Lincoln, Montana, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Montana, USA', "lng" = -115.6596529, "lat" = 48.5880903, "address" = 'Lincoln, Montana, USA', "updated_at" = '2009-05-01 08:48:46' WHERE "id" = 5[0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:48:46) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:48:56) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:49:02) [PUT]
+  Parameters: {"business"=>{"name"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+  [4;35;1mBusiness Update (0.3ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Miami, FL 31083, USA', "address" = 'Lincoln, Miami, FL 31083, USA', "updated_at" = '2009-05-01 08:49:02' WHERE "id" = 5[0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:49:02) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:49:35) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:49:39) [PUT]
+  Parameters: {"business"=>{"name"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:49:39) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 71ms (View: 65, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:49:49) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:49:51) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:49:52) [PUT]
+  Parameters: {"business"=>{"name"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.5ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:49:52) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:55:04) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:55:11) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:55:12) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"48.5880903", "actual_lng"=>"-115.6596529", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:55:12) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:58:59) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:59:01) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"48.5880903", "actual_lng"=>"-115.6596529", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:59:01) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:59:04) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:59:12) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"48.5880903", "actual_lng"=>"-115.6596529", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, New Mexico, USA', "address" = 'Lincoln, New Mexico, USA', "updated_at" = '2009-05-01 08:59:12' WHERE "id" = 5[0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:59:12) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:59:23) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:59:29) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"48.5880903", "actual_lng"=>"-115.6596529", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Miami, FL 31083, USA', "lng" = -80.232774, "lat" = 25.764455, "address" = 'Lincoln, Miami, FL 31083, USA', "updated_at" = '2009-05-01 08:59:30' WHERE "id" = 5[0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 1051ms (DB: 1) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:59:30) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:59:35) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 11:59:36) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"25.764455", "actual_lng"=>"-80.232774", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Redirected to http://localhost:3000/businesses/5
+Completed in 67ms (DB: 0) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 11:59:36) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/5]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 11:59:45) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:25:04) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (17.0ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 474ms (View: 256, DB: 17) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:25:58) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 60ms (View: 7, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:26:33) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:26:59) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 49ms (View: 31, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:28:03) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:29:39) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 44ms (View: 9, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:30:33) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:31:52) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:32:49) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:37:09) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:37:59) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:39:21) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.4ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:39:44) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.5ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:42:14) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.7ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 75ms (View: 6, DB: 1) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:44:15) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:45:05) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:45:56) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:46:44) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:49:45) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 18:58:45) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:00:08) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:04:09) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 18ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:04:43) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:05:08) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:05:43) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:06:06) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:07:11) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/5/edit]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:07:39) [GET]
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 36ms (View: 30, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:07:41) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:07:50) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"", "lat"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Create (20.3ms)[0m   [0mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:07:51', -80.232774, 'Lincoln, Miami, FL 31083, USA', 25.764455, 'Lincoln, Miami, FL 31083, USA', '2009-05-01 16:07:51')[0m
+Redirected to http://localhost:3000/businesses/6
+Completed in 944ms (DB: 20) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:07:51) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 6) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/6]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:08:05) [GET]
+  [4;35;1mBusiness Load (0.9ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:08:11) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:08:25) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-80.232774", "lat"=>"25.764455", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;36;1mBusiness Create (0.7ms)[0m   [0;1mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:08:26', -80.232774, 'Lincoln, Miami, FL 31083, USA', 25.764455, 'Lincoln, Miami, FL 31083, USA', '2009-05-01 16:08:26')[0m
+Redirected to http://localhost:3000/businesses/7
+Completed in 943ms (DB: 1) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:08:26) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 7) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 108ms (View: 98, DB: 0) | 200 OK [http://localhost/businesses/7]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:08:41) [GET]
+  [4;36;1mBusiness Load (1.0ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:08:42) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:09:13) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-80.376619", "lat"=>"25.632971", "address"=>"Lincoln Blvd, Miami, FL, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lincoln Blvd, Miami, FL, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln Blvd, Miami, FL, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Create (0.5ms)[0m   [0mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:09:14', -80.376619, 'Lincoln Blvd, Miami, FL, USA', 25.632971, 'Lincoln Blvd, Miami, FL, USA', '2009-05-01 16:09:14')[0m
+Redirected to http://localhost:3000/businesses/8
+Completed in 768ms (DB: 0) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:09:14) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 8) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/8]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:09:56) [GET]
+  [4;35;1mBusiness Load (1.0ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:09:58) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:10:10) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"110.983333", "lat"=>"37.95", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+  [4;36;1mBusiness Create (0.4ms)[0m   [0;1mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:10:10', 110.983333, 'Lincoln, Miami, FL 31083, USA', 37.95, 'Lincoln, Miami, FL 31083, USA', '2009-05-01 16:10:10')[0m
+Redirected to http://localhost:3000/businesses/9
+Completed in 13ms (DB: 0) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:10:10) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 9) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 21ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/9]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:10:15) [GET]
+  [4;36;1mBusiness Load (1.0ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 29ms (View: 11, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:10:19) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:10:29) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"", "lat"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Create (0.6ms)[0m   [0mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:10:30', -80.232774, 'Lincoln, Miami, FL 31083, USA', 25.764455, 'Lincoln, Miami, FL 31083, USA', '2009-05-01 16:10:30')[0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 919ms (DB: 1) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:10:30) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.8ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/businesses/10]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:10:36) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/10/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:10:42) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"25.764455", "actual_lng"=>"-80.232774", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"10"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:10:42) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/10]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:10:45) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/businesses/10/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:10:50) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"25.764455", "actual_lng"=>"-80.232774", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"10"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+  [4;36;1mBusiness Update (0.4ms)[0m   [0;1mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, New Mexico, USA', "address" = 'Lincoln, New Mexico, USA', "updated_at" = '2009-05-01 16:10:50' WHERE "id" = 10[0m
+Redirected to http://localhost:3000/businesses/10
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/businesses/10]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:10:50) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 10) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/10]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:12:35) [GET]
+
+SyntaxError (/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:10: syntax error, unexpected kSELF, expecting ')'
+    if (self.geolocalized_address != self.address && !self.lat.nil? && !self.lng.nil? && self.lat != self.actual_lat self.lng != self.actual_lng)
+                                                                                                                         ^):
+  app/controllers/businesses_controller.rb:5:in `index'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (32.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:12:44) [GET]
+  [4;36;1mBusiness Load (1.1ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:13:06) [GET]
+  [4;35;1mBusiness Load (1.0ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:13:08) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:13:19) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"", "lat"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Geocoder.us geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: 2: couldn't find this address! sorry
+geocoder.us was unable to geocode address: Lincoln, Miami, FL 31083, USA
+  [4;36;1mBusiness Create (0.5ms)[0m   [0;1mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:13:37', NULL, 'Lincoln, Miami, FL 31083, USA', NULL, NULL, '2009-05-01 16:13:37')[0m
+Redirected to http://localhost:3000/businesses/11
+Completed in 17405ms (DB: 1) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:13:37) [GET]
+  Parameters: {"id"=>"11"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 11) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/11]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:15:16) [GET]
+  [4;36;1mBusiness Load (1.1ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 80ms (View: 11, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:15:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 2) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/2]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:15:26) [GET]
+  [4;36;1mBusiness Load (1.2ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:15:28) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 2) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/2]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:15:31) [GET]
+  [4;36;1mBusiness Load (1.2ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:15:33) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 3) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/3]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:15:39) [GET]
+  [4;36;1mBusiness Load (1.1ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 21ms (View: 10, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:15:59) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"2"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 2) [0m
+  [4;36;1mBusiness Destroy (0.4ms)[0m   [0;1mDELETE FROM "businesses" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/businesses
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/2]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:15:59) [GET]
+  [4;35;1mBusiness Load (1.3ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 20ms (View: 13, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:16:02) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"4"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 4) [0m
+  [4;35;1mBusiness Destroy (0.3ms)[0m   [0mDELETE FROM "businesses" WHERE "id" = 4[0m
+Redirected to http://localhost:3000/businesses
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/4]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:16:02) [GET]
+  [4;36;1mBusiness Load (1.0ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:16:13) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"5"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 5) [0m
+  [4;36;1mBusiness Destroy (0.4ms)[0m   [0;1mDELETE FROM "businesses" WHERE "id" = 5[0m
+Redirected to http://localhost:3000/businesses
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/5]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:16:13) [GET]
+  [4;35;1mBusiness Load (1.3ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:16:15) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"3"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 3) [0m
+  [4;35;1mBusiness Destroy (0.8ms)[0m   [0mDELETE FROM "businesses" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/businesses
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/businesses/3]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:16:16) [GET]
+  [4;36;1mBusiness Load (0.9ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:16:18) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"6"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 6) [0m
+  [4;36;1mBusiness Destroy (0.4ms)[0m   [0;1mDELETE FROM "businesses" WHERE "id" = 6[0m
+Redirected to http://localhost:3000/businesses
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/6]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:16:18) [GET]
+  [4;35;1mBusiness Load (1.9ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 18ms (View: 10, DB: 2) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:16:20) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"7"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 7) [0m
+  [4;35;1mBusiness Destroy (0.4ms)[0m   [0mDELETE FROM "businesses" WHERE "id" = 7[0m
+Redirected to http://localhost:3000/businesses
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/7]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:16:20) [GET]
+  [4;36;1mBusiness Load (1.0ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:16:22) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"8"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 8) [0m
+  [4;36;1mBusiness Destroy (0.3ms)[0m   [0;1mDELETE FROM "businesses" WHERE "id" = 8[0m
+Redirected to http://localhost:3000/businesses
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/businesses/8]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:16:23) [GET]
+  [4;35;1mBusiness Load (0.7ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 80ms (View: 73, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#destroy (for 127.0.0.1 at 2009-05-01 19:16:25) [DELETE]
+  Parameters: {"authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"9"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 9) [0m
+  [4;35;1mBusiness Destroy (0.6ms)[0m   [0mDELETE FROM "businesses" WHERE "id" = 9[0m
+Redirected to http://localhost:3000/businesses
+Completed in 40ms (DB: 1) | 302 Found [http://localhost/businesses/9]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:16:41) [GET]
+  [4;36;1mBusiness Load (0.6ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 26ms (View: 15, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:17:01) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:17:06) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"", "lat"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Create (0.5ms)[0m   [0mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:17:07', -80.232774, 'Lincoln, Miami, FL 31083, USA', 25.764455, 'Lincoln, Miami, FL 31083, USA', '2009-05-01 16:17:07')[0m
+Redirected to http://localhost:3000/businesses/12
+Completed in 1313ms (DB: 0) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:17:07) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mBusiness Load (0.4ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 12) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/12]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:17:43) [GET]
+  [4;35;1mBusiness Load (0.9ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:17:44) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:17:54) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:18:49) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"110.983333", "lat"=>"37.95", "address"=>"Lin, 临县, Lüliang, Shanxi, China"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+  [4;36;1mBusiness Create (0.4ms)[0m   [0;1mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:18:49', 110.983333, 'Lin, 临县, Lüliang, Shanxi, China', 37.95, 'Lin, 临县, Lüliang, Shanxi, China', '2009-05-01 16:18:49')[0m
+Redirected to http://localhost:3000/businesses/13
+Completed in 88ms (DB: 0) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:18:50) [GET]
+  Parameters: {"id"=>"13"}
+  [4;35;1mBusiness Load (0.4ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 13) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/13]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:18:54) [GET]
+  [4;36;1mBusiness Load (1.0ms)[0m   [0;1mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:18:58) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:19:07) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"", "lat"=>"", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lincoln, New Mexico, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, New Mexico, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln, New Mexico, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>NM</AdministrativeAreaName><AddressLine>Lincoln</AddressLine></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="33.4944641" south="33.4881689" east="-105.3863570" west="-105.3927000" />
+    </ExtendedData>
+    <Point><coordinates>-105.3863570,33.4924140,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;35;1mBusiness Create (0.6ms)[0m   [0mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:19:08', -105.386357, 'Lincoln, New Mexico, USA', 33.492414, 'Lincoln, New Mexico, USA', '2009-05-01 16:19:08')[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 679ms (DB: 1) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:19:08) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:19:11) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:19:26) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"33.492414", "actual_lng"=>"-105.386357", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:19:26) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 20ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:19:34) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:19:39) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"33.492414", "actual_lng"=>"-105.386357", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;36;1mBusiness Update (0.4ms)[0m   [0;1mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Miami, FL 31083, USA', "lng" = -80.232774, "lat" = 25.764455, "address" = 'Lincoln, Miami, FL 31083, USA', "updated_at" = '2009-05-01 16:19:40' WHERE "id" = 14[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 877ms (DB: 1) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:19:40) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:19:46) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:20:09) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-82.9248046875", "lat"=>"26.745610382199022", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+  [4;36;1mBusiness Update (0.5ms)[0m   [0;1mUPDATE "businesses" SET "lng" = -82.9248046875, "lat" = 26.745610382199, "updated_at" = '2009-05-01 16:20:09' WHERE "id" = 14[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 17ms (DB: 1) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:20:09) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:20:13) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:21:15) [PUT]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-89.3226954", "lat"=>"40.061338", "address"=>"Lincoln, Illinois, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Google geocoding. Address: Lincoln, Illinois, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Illinois, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln, IL, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>IL</AdministrativeAreaName><Locality><LocalityName>Lincoln</LocalityName></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="40.1685730" south="40.1258320" east="-89.3300760" west="-89.4169920" />
+    </ExtendedData>
+    <Point><coordinates>-89.3678440,40.1469720,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;36;1mBusiness Update (0.4ms)[0m   [0;1mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Illinois, USA', "lng" = -89.367844, "lat" = 40.146972, "address" = 'Lincoln, Illinois, USA', "updated_at" = '2009-05-01 16:21:16' WHERE "id" = 14[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 1081ms (DB: 1) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:21:16) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:27:06) [GET]
+  Parameters: {"id"=>"14"}
+
+SyntaxError (/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:14: syntax error, unexpected kEND, expecting ')'
+/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:19: syntax error, unexpected kEND, expecting ')'):
+  app/controllers/businesses_controller.rb:37:in `edit'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:27:51) [GET]
+  Parameters: {"id"=>"14"}
+
+SyntaxError (/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:14: syntax error, unexpected kEND, expecting ')'
+/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:19: syntax error, unexpected kEND, expecting ')'):
+  app/controllers/businesses_controller.rb:37:in `edit'
+
+Rendered rescues/_trace (30.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:28:06) [GET]
+  Parameters: {"id"=>"14"}
+
+SyntaxError (/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:14: syntax error, unexpected kEND, expecting ')'
+/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:19: syntax error, unexpected kEND, expecting ')'):
+  app/controllers/businesses_controller.rb:37:in `edit'
+
+Rendered rescues/_trace (165.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:28:06) [GET]
+  Parameters: {"id"=>"14"}
+
+SyntaxError (/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:14: syntax error, unexpected kEND, expecting ')'
+/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:19: syntax error, unexpected kEND, expecting ')'):
+  app/controllers/businesses_controller.rb:37:in `edit'
+
+Rendered rescues/_trace (31.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:28:22) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:28:31) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 460ms (View: 454, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:31:04) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:31:41) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.146972", "lng"=>"-89.367844", "lat"=>"40.146972", "actual_lng"=>"-89.367844", "address"=>"Lincoln, Illinois, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:31:41) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:31:45) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.5ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:32:07) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.146972", "lng"=>"-96.70262", "lat"=>"40.813628", "actual_lng"=>"-89.367844", "address"=>"Lincoln, NE, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, NE, USA', "lng" = -96.70262, "lat" = 40.813628, "address" = 'Lincoln, NE, USA', "updated_at" = '2009-05-01 16:32:07' WHERE "id" = 14[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 42ms (DB: 1) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:32:07) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.6ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:32:17) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:32:21) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:32:33) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.813628", "actual_lng"=>"-96.70262", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+  [4;36;1mBusiness Update (0.4ms)[0m   [0;1mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Miami, FL 31083, USA', "address" = 'Lincoln, Miami, FL 31083, USA', "updated_at" = '2009-05-01 16:32:33' WHERE "id" = 14[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:32:33) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:34:13) [GET]
+  Parameters: {"id"=>"14"}
+
+SyntaxError (/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:14: syntax error, unexpected kEND, expecting ')'
+/Users/seb/tmp/tmp/Maptimize---Demo-1/app/models/business.rb:19: syntax error, unexpected kEND, expecting ')'):
+  app/controllers/businesses_controller.rb:37:in `edit'
+
+Rendered rescues/_trace (98.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:34:26) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:34:30) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.813628", "actual_lng"=>"-96.70262", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (1.8ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 18ms (DB: 2) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:34:30) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:34:34) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:34:43) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.813628", "actual_lng"=>"-96.70262", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+
+NoMethodError (undefined method `addressself' for #<Business:0x21539b4>):
+  app/models/business.rb:11:in `geocode_address'
+  app/controllers/businesses_controller.rb:63:in `update'
+  app/controllers/businesses_controller.rb:62:in `update'
+
+Rendered rescues/_trace (114.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:35:01) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.813628", "actual_lng"=>"-96.70262", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+  [4;36;1mBusiness Update (0.5ms)[0m   [0;1mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, New Mexico, USA', "address" = 'Lincoln, New Mexico, USA', "updated_at" = '2009-05-01 16:35:01' WHERE "id" = 14[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:35:01) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:35:18) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:35:19) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.813628", "actual_lng"=>"-96.70262", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:35:19) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.4ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:35:22) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:35:30) [PUT]
+  Parameters: {"business"=>{"name"=>"", "actual_lat"=>"40.813628", "actual_lng"=>"-96.70262", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+  [4;35;1mBusiness Update (0.5ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Miami, FL 31083, USA', "address" = 'Lincoln, Miami, FL 31083, USA', "updated_at" = '2009-05-01 16:35:30' WHERE "id" = 14[0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 17ms (DB: 1) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:35:30) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:43:34) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:43:39) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/businesses/14/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:43:45) [PUT]
+  Parameters: {"business"=>{"name"=>"", "current_lng"=>"-96.70262", "current_lat"=>"40.813628", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"14"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Redirected to http://localhost:3000/businesses/14
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/businesses/14]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:43:45) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 14) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 14ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/14]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:44:11) [GET]
+  [4;35;1mBusiness Load (1.3ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:44:13) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:44:16) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"", "lat"=>"", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+Google geocoding. Address: Lincoln, Miami, FL 31083, USA. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Lincoln, Miami, FL 31083, USA</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Lincoln Marti School, Miami, FL 33135, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33135</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7676026" south="25.7613074" east="-80.2296264" west="-80.2359216" />
+    </ExtendedData>
+    <Point><coordinates>-80.2327740,25.7644550,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Lincoln Marti School, Miami, FL 33130, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33130</PostalCodeNumber><AddressLine>Lincoln Marti School</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.7758586" south="25.7695634" east="-80.2068484" west="-80.2131436" />
+    </ExtendedData>
+    <Point><coordinates>-80.2099960,25.7727110,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Lincoln Marti School (103rd St), Miami, FL 33147, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><PostalCode><PostalCodeNumber>33147</PostalCodeNumber><AddressLine>Lincoln Marti School (103rd St)</AddressLine></PostalCode></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.8716306" south="25.8653354" east="-80.2292654" west="-80.2355606" />
+    </ExtendedData>
+    <Point><coordinates>-80.2324130,25.8684830,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Lincoln Blvd, Miami, FL, USA</address>
+    <AddressDetails Accuracy="6" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><Locality><LocalityName>Miami</LocalityName><Thoroughfare><ThoroughfareName>Lincoln Blvd</ThoroughfareName></Thoroughfare></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="25.6349620" south="25.6275990" east="-80.3741950" west="-80.3826710" />
+    </ExtendedData>
+    <Point><coordinates>-80.3766190,25.6329710,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+  [4;36;1mBusiness Create (0.5ms)[0m   [0;1mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:44:18', -80.232774, 'Lincoln, Miami, FL 31083, USA', 25.764455, 'Lincoln, Miami, FL 31083, USA', '2009-05-01 16:44:18')[0m
+Redirected to http://localhost:3000/businesses/15
+Completed in 1655ms (DB: 0) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:44:18) [GET]
+  Parameters: {"id"=>"15"}
+  [4;35;1mBusiness Load (0.3ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/15]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:44:20) [GET]
+  Parameters: {"id"=>"15"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/15/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:44:21) [PUT]
+  Parameters: {"business"=>{"name"=>"", "current_lng"=>"-80.232774", "current_lat"=>"25.764455", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"15"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Redirected to http://localhost:3000/businesses/15
+Completed in 96ms (DB: 0) | 302 Found [http://localhost/businesses/15]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:44:21) [GET]
+  Parameters: {"id"=>"15"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/15]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:44:27) [GET]
+  Parameters: {"id"=>"15"}
+  [4;35;1mBusiness Load (0.5ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/businesses/15/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:44:33) [PUT]
+  Parameters: {"business"=>{"name"=>"", "current_lng"=>"-80.232774", "current_lat"=>"25.764455", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"15"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+  [4;35;1mBusiness Update (0.5ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, New Mexico, USA', "address" = 'Lincoln, New Mexico, USA', "updated_at" = '2009-05-01 16:44:33' WHERE "id" = 15[0m
+Redirected to http://localhost:3000/businesses/15
+Completed in 20ms (DB: 1) | 302 Found [http://localhost/businesses/15]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:44:33) [GET]
+  Parameters: {"id"=>"15"}
+  [4;36;1mBusiness Load (0.4ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/businesses/15]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:44:42) [GET]
+  Parameters: {"id"=>"15"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/15/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:46:24) [PUT]
+  Parameters: {"business"=>{"name"=>"", "current_lng"=>"-80.232774", "lng"=>"-83.671875", "current_lat"=>"25.764455", "lat"=>"26.66709580110479", "address"=>"Lincoln, New Mexico, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"15"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+  [4;35;1mBusiness Update (0.4ms)[0m   [0mUPDATE "businesses" SET "lng" = -83.671875, "lat" = 26.6670958011048, "updated_at" = '2009-05-01 16:46:24' WHERE "id" = 15[0m
+Redirected to http://localhost:3000/businesses/15
+Completed in 31ms (DB: 1) | 302 Found [http://localhost/businesses/15]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:46:25) [GET]
+  Parameters: {"id"=>"15"}
+  [4;36;1mBusiness Load (0.2ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/businesses/15]
+
+
+Processing BusinessesController#edit (for 127.0.0.1 at 2009-05-01 19:46:28) [GET]
+  Parameters: {"id"=>"15"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/15/edit]
+
+
+Processing BusinessesController#update (for 127.0.0.1 at 2009-05-01 19:46:53) [PUT]
+  Parameters: {"business"=>{"name"=>"", "current_lng"=>"-83.671875", "lng"=>"-89.3226954", "current_lat"=>"26.6670958011048", "lat"=>"40.061338", "address"=>"Lincoln, Illinois, USA"}, "commit"=>"Update", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE=", "id"=>"15"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+  [4;35;1mBusiness Update (0.5ms)[0m   [0mUPDATE "businesses" SET "geolocalized_address" = 'Lincoln, Illinois, USA', "lng" = -89.3226954, "lat" = 40.061338, "address" = 'Lincoln, Illinois, USA', "updated_at" = '2009-05-01 16:46:53' WHERE "id" = 15[0m
+Redirected to http://localhost:3000/businesses/15
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/businesses/15]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:46:53) [GET]
+  Parameters: {"id"=>"15"}
+  [4;36;1mBusiness Load (0.3ms)[0m   [0;1mSELECT * FROM "businesses" WHERE ("businesses"."id" = 15) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/businesses/15]
+
+
+Processing BusinessesController#index (for 127.0.0.1 at 2009-05-01 19:47:00) [GET]
+  [4;35;1mBusiness Load (0.9ms)[0m   [0mSELECT * FROM "businesses" [0m
+Rendering template within layouts/businesses
+Rendering businesses/index
+Completed in 82ms (View: 8, DB: 1) | 200 OK [http://localhost/businesses]
+
+
+Processing BusinessesController#new (for 127.0.0.1 at 2009-05-01 19:47:02) [GET]
+Rendering template within layouts/businesses
+Rendering businesses/new
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/businesses/new]
+
+
+Processing BusinessesController#create (for 127.0.0.1 at 2009-05-01 19:47:21) [POST]
+  Parameters: {"business"=>{"name"=>"", "lng"=>"-80.232774", "lat"=>"25.764455", "address"=>"Lincoln, Miami, FL 31083, USA"}, "commit"=>"Create", "authenticity_token"=>"XBhMJZXeqhKTng9gbfwP1gvZF1kU0PyBif3JZIWM2XE="}
+  [4;36;1mBusiness Create (0.5ms)[0m   [0;1mINSERT INTO "businesses" ("name", "updated_at", "lng", "address", "lat", "geolocalized_address", "created_at") VALUES('', '2009-05-01 16:47:21', -80.232774, 'Lincoln, Miami, FL 31083, USA', 25.764455, 'Lincoln, Miami, FL 31083, USA', '2009-05-01 16:47:21')[0m
+Redirected to http://localhost:3000/businesses/16
+Completed in 21ms (DB: 0) | 302 Found [http://localhost/businesses]
+
+
+Processing BusinessesController#show (for 127.0.0.1 at 2009-05-01 19:47:21) [GET]
+  Parameters: {"id"=>"16"}
+  [4;35;1mBusiness Load (0.2ms)[0m   [0mSELECT * FROM "businesses" WHERE ("businesses"."id" = 16) [0m
+Rendering template within layouts/businesses
+Rendering businesses/show
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/businesses/16]
