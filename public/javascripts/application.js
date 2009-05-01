@@ -104,8 +104,24 @@ Application = Class.create({
     map.addControl(new GSmallMapControl());
 
      // Attach maptimize service
-    window.maptimizeMap = new Maptimize.Map(map);
+     var app = this;
+    window.maptimizeMap = new Maptimize.Map(map, {
+      onMarkerClicked: function(marker) {
+        return app.getMarkerDetails(marker, marker.getId());
+      },
+      onZoomMaxClusterClicked: function(cluster, ids) {
+        return app.getMarkerDetails(cluster, ids);
+      }
+    });
     
     return(this);
+  },
+  getMarkerDetails: function(object, ids) {
+    return new Ajax.Request("/businesses/"+ids, {
+      method: 'GET',
+      onComplete: function(response) {
+        object.getGMarker().openInfoWindowHtml(response.responseText);
+      }
+    });
   }
 });

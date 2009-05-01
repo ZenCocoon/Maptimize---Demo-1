@@ -8,18 +8,21 @@ class BusinessesController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @businesses }
-      format.csv
+      format.csv  # index.csv.erb
     end
   end
 
   # GET /businesses/1
   # GET /businesses/1.xml
+  # GET /businesses/1,2
   def show
-    @business = Business.find(params[:id])
+    @businesses = Business.find(params[:id].split(','))
+    @business = @businesses.first
 
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @business }
+      format.js   # show.js.erb
     end
   end
 
