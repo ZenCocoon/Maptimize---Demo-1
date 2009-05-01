@@ -52,7 +52,10 @@ Application = Class.create({
       { onInitialized: function(widget) {
           // Add default controls
           widget.getMap().setUIToDefault();
-    
+
+          // Attach maptimize plugin
+          var maptimizeMap = new Maptimize.Map(widget.getMap());
+
           widget.initMap();
     
           // Observe 'suggests:started' to display spinner and disable submit button
@@ -103,8 +106,8 @@ Application = Class.create({
     // Add controls
     map.addControl(new GSmallMapControl());
 
-     // Attach maptimize service
-     var app = this;
+    // Attach maptimize service
+    var app = this;
     window.maptimizeMap = new Maptimize.Map(map, {
       onMarkerClicked: function(marker) {
         return app.getMarkerDetails(marker, marker.getId());
