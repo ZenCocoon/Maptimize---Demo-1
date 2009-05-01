@@ -9,6 +9,7 @@ This demonstration will help you :
 # keep both side geo localization working nicely together and in an unobtrusive way
 # map your localized object while keeping optimized, using "Maptimize":http://www.maptimize.com
 # show details when clicking on markers and clusters
+# bonus, use Maptimize makers when creating / editing entries
 
 Looking for more details, read the full tutorial "Maps, Geolocalization and Optimization with Maptimize":http://seb.box.re/2009/05/01/maps-geolocalization-and-optimization-with-maptimize
 
