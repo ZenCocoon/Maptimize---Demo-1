@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(:version => 20090430101417) do
     t.string   "address"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "geolocalized"
     t.float    "lat"
     t.float    "lng"
     t.string   "geolocalized_address"

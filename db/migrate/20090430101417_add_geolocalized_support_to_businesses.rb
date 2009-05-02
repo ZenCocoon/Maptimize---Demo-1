@@ -1,13 +1,14 @@
 class AddGeolocalizedSupportToBusinesses < ActiveRecord::Migration
   def self.up
-    add_column :businesses, :lat, :float
-    add_column :businesses, :lng, :float
-    add_column :businesses, :geolocalized_address, :string
+    change_table(:businesses) do |t|
+       t.float :lat, :lng
+       t.string :geolocalized_address
+     end
   end
 
   def self.down
-    remove_column :businesses, :geolocalized_address
-    remove_column :businesses, :lng
-    remove_column :businesses, :lat
+    change_table(:businesses) do |t|
+       t.remove :lat, :lng, :geolocalized_address
+     end
   end
 end
