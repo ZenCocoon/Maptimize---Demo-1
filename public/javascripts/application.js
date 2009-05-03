@@ -97,28 +97,34 @@ Application = Class.create({
     if (!GBrowserIsCompatible() || !(map = $(map)))
       return(this);
 
-    // Create a new google map
-    var map = new GMap2(map);
+    if (typeof Maptimize.Map == "undefined") {
+      map.update("Maptimize key is not correctly set, check file config/initializers/maptimize_config.rb or \
+                  run 'rake bootstrap' to fill database with some data")
+    }
+    else {
+      // Create a new google map
+      var map = new GMap2(map);
 
-    // Center on the world
-    map.setCenter(new GLatLng(47, 1), 2);
+      // Center on the world
+      map.setCenter(new GLatLng(47, 1), 2);
 
-    // Add controls
-    map.addControl(new GSmallMapControl());
-
-    // Attach maptimize service
-    var app = this;
-    window.maptimizeMap = new Maptimize.Map(map, {
-      onMarkerClicked: function(marker) {
-        return app.getMarkerDetails(marker, marker.getId());
-      },
-      onZoomMaxClusterClicked: function(cluster, ids) {
-        return app.getMarkerDetails(cluster, ids);
-      }
-    });
+      // Add controls
+      map.addControl(new GSmallMapControl());
     
+      // Attach maptimize service
+      var app = this;
+      window.maptimizeMap = new Maptimize.Map(map, {
+        onMarkerClicked: function(marker) {
+          return app.getMarkerDetails(marker, marker.getId());
+        },
+        onZoomMaxClusterClicked: function(cluster, ids) {
+          return app.getMarkerDetails(cluster, ids);
+        }
+      });
+    }    
     return(this);
   },
+    
   getMarkerDetails: function(object, ids) {
     return new Ajax.Request("/businesses/"+ids, {
       method: 'GET',
