@@ -5,6 +5,8 @@
 #
 # rake maptimize:sync
 
+MAPTIMIZE_CSV_URL = "http://localhost:3000/businesses.csv"
+MAPTIMIZE_CSV_URL.freeze
 MAPTIMIZE_AUTHENTICITY_TOKEN = "AUTHENTICITY_TOKEN"
 MAPTIMIZE_AUTHENTICITY_TOKEN.freeze
 MAPTIMIZE_MAP_KEY = Rails.env.development? ? "DEVELOPMENT_KEY" : "PRODUCTION_KEY"
