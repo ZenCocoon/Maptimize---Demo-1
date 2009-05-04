@@ -1,8 +1,9 @@
-# You'll need to add a cronjob to automaticaly syncronize your data with Maptimize running the following command line
+# You'll need to add a cronjob to automatically synchronize your data with Maptimize running the following command line
 #
-# IMPORTANT: This is made for BASH shell and is given AS IS so please review it before any use as I can't be hold responsable for any dommage it could make 
+# IMPORTANT: This will overwrite any file called *maptimize.csv* located in your app's tmp folder
+# If you like to change this behavior update lib/tasks/maptimize.rake
 #
-# curl URL_TO_YOU_CSV > YOUR_CSV_FILE ; curl -u YOUR_AUTHENTICATION_TOKEN:X -X PUT http://www.maptimize.com/api/beta/YOUR_MAP_KEY/import -T YOUR_CSV_FILE -H 'Content-Type: text/csv'
+# rake maptimize:sync
 
 MAPTIMIZE_AUTHENTICITY_TOKEN = "AUTHENTICITY_TOKEN"
 MAPTIMIZE_AUTHENTICITY_TOKEN.freeze

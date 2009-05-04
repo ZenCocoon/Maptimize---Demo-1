@@ -99,9 +99,8 @@ Application = Class.create({
 
     if (typeof Maptimize.Map == "undefined") {
       map.update("Maptimize key is not correctly set, check file config/initializers/maptimize_config.rb or \
-                  run 'rake bootstrap' to fill database with some data")
-    }
-    else {
+                  run 'rake bootstrap' to fill database with some data");
+    } else {
       // Create a new google map
       var map = new GMap2(map);
 
