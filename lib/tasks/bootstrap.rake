@@ -10,6 +10,4 @@ task :bootstrap => :environment do
       business.save
     end
   end
-  initializer = File.join(Rails.root, 'config', 'initializers', 'maptimize_config.rb')
-  system("ruby -pi.bak -e '$_.gsub!(\"DEVELOPMENT_KEY\", \"025bcbc91bef24e9f545dd3124844c3a97214dda\")' #{initializer}")
 end
