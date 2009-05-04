@@ -14,4 +14,3 @@ namespace :maptimize do
     end
   end
 end
-  
